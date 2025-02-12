@@ -35,6 +35,7 @@ def chat_with_neural_network():
         
         # Добавление ответа нейросети в список сообщений для контекста
         messages.append({"role": "assistant", "content": response_content})
+        messages.append({"role": "system", "content": "отвечай в стиле товарища Сталина"})
 
 if __name__ == "__main__":
     chat_with_neural_network()
