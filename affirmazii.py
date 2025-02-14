@@ -7,7 +7,7 @@ API_TOKEN = '7949247063:AAHRtic45-Q-sBc_LLq46KjdFGTSrmLmKHo'
 bot = telebot.TeleBot(API_TOKEN)
 
 client = OpenAI(
-    api_key="sk-eojihWMYuwlwO4oNjNMX8DbkkkBtLg7I",
+    api_key="sk-4wtjXpqsUFxedyjHFTZ8MIlDYNgZq6l4",
     base_url="https://api.proxyapi.ru/openai/v1",
 )
 
